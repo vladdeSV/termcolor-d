@@ -1,0 +1,9 @@
+{
+	"description": "Colorize writeln(...) output",
+	"license": "MIT",
+	"authors": [
+		"Vladimirs Nordholm"
+	],
+	"copyright": "Copyright Â© 2018, Vladimirs Nordholm",
+	"name": "termcolor-d"
+}
