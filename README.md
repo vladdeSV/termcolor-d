@@ -13,3 +13,7 @@ writeln(C.green.fg, "Green text", resetColor);
 writeln(C.blue.bg, "Blue", C.blueDark.bg, "Dark", resetColor);
 writeln("Written in ", C.yellow.fg, "yellow color and ", C.blackDark.bg, "dark background", resetColor, "!");
 ```
+
+# Shameless plugs
+
+[`scone 🍞`](https://github.com/vladdeSV/scone) - If you need a more fleshed out library to handle **text**, **colors**, and **keyboard input**.
