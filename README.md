@@ -7,6 +7,16 @@ Hackish library use colors with `writeln(...);` on POSIX.
 ## Examples
 
 ```d
+// all below retun ANSI color codes, which most terminals will interpret correctly
+
+C.red.fg;       // Color → Red → Foreground
+C.blueDark.bg;  // Color → Blue (Dark) → Background
+C.reset.fg;     // Color → Default Color → Foreground
+C.reset.bg;     // Color → Default Color → Background
+resetColor;     // Reset foreground and background colors to default
+```
+
+```d
 import std.stdio : writeln;
 
 writeln(C.green.fg, "Green text", resetColor);
