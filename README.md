@@ -24,6 +24,21 @@ writeln(C.blue.bg, "Blue", C.blueDark.bg, "Dark", resetColor);
 writeln("Written in ", C.yellow.fg, "yellow color and ", C.blackDark.bg, "dark background", resetColor, "!");
 ```
 
+## [dub](https://code.dlang.org/download)
+
+```js
+/// dub.json
+"dependencies": {
+    "termcolor-d": "~>0.0.1",
+    ...
+}
+```
+
+```js
+/// dub.sdl
+dependency "termcolor-d" version="~>0.0.1"
+```
+
 # Shameless plugs
 
 [`scone 🍞`](https://github.com/vladdeSV/scone) - If you need a more fleshed out library to handle **text**, **colors**, and **keyboard input**.
