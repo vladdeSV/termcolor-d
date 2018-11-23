@@ -39,6 +39,12 @@ writeln("Written in ", C.yellow.fg, "yellow color and ", C.blackDark.bg, "dark b
 dependency "termcolor-d" version="~>0.0.1"
 ```
 
-# Shameless plugs
+# Shameless plugs (and other recommendations)
 
-[`scone 🍞`](https://github.com/vladdeSV/scone) - If you need a more fleshed out library to handle **text**, **colors**, and **keyboard input**.
+[`scone 🍞`](https://github.com/vladdeSV/scone) by me - If you need a more fleshed out cross-platform library to handle **text**, **colors**, and **keyboard input**.
+
+[`terminal.d`](https://github.com/adamdruppe/arsd/blob/master/terminal.d) by Adam D. Ruppe - A more lightweight cross-platform library to handle **text**, **colors**, and **keyboard input**.
+
+[`textattr`](https://github.com/jamadagni/textattr/) by Shriramana Sharma - Library with a different approach than this project, but with some more functionality. Available for other programming languages languages.
+
+[`ConsoleD`](https://github.com/robik/ConsoleD) by Robert Pasińsk - Another cross-platform library with yet another approach than this project, and also has more functionality.
